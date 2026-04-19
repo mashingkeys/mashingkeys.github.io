@@ -10,25 +10,8 @@ always interested in working on cool projects : feel free to reach out!
 
 > on the way out
 
-️ ☣ listen to my sick playlists ️ ☣
+️ [listen to my sick playlist](https://open.spotify.com/playlist/1KYjJYDw0t6TwioYoyNic2?si=1a512f404ce44405)
 
-interest : bio/ml, computer arch, theology, philosophy, music, arts, poetry, opera, theater, horror, books, hiking, experiencing, learning...
+好き　: cybersecurity, computer architecture, cooking, patisserie, music, gaming, arts, philosophy, books, nature, experiencing, learning...
 
-pure hate : journalism, ideology, this, advertising, 2-factor authentication, subscription culture and Microsoft
-
-    take a look at
-        my naive articles... >
-        alexine's lab >
-    my links
-        insta
-        marry me
-        hire me ♡
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+大嫌い : journalism, ideology, advertising, subscription culture, "big tech"
