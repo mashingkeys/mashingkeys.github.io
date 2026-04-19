@@ -1,19 +1,5 @@
 ---
-layout: default
-title: デビッドの家
+layout: home
+title: mashingkeys
+subtitle: this is it.
 ---
-
-<section class="post-list">
-  {% for post in site.posts limit: 8 %}
-    <article class="post-card">
-      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      {% if post.subtitle %}
-        <p class="post-subtitle">{{ post.subtitle }}</p>
-      {% endif %}
-      {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
-      {% endif %}
-    </article>
-  {% endfor %}
-</section>
