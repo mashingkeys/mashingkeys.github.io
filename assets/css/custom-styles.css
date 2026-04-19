@@ -1,59 +1,60 @@
 html, body {
-  background: #FCFCFA !important;
-  color: #1F1F1C !important;
+  background: #fbfbf8 !important;
+  color: #222222 !important;
 }
 
-body {
-  font-family: Georgia, "Times New Roman", serif;
-}
-
-/* Main content background */
-.main-content,
+/* Main page areas */
+body,
 .container-md,
 .container-fluid,
+.main-content,
 .blog-post,
 .post-preview,
-.page-content,
 .intro-header,
-header,
-footer {
-  background: #FCFCFA !important;
-  color: #1F1F1C !important;
+.header-section,
+.page-heading,
+.post-heading,
+footer,
+.navbar,
+.navbar-custom {
+  background: #fbfbf8 !important;
+  color: #222222 !important;
+}
+
+/* Body text */
+p, li, td, th, blockquote, div {
+  color: #222222;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #222222 !important;
+}
+
+/* Links */
+a,
+a:visited {
+  color: #3f5f7a !important;
+}
+
+a:hover,
+a:focus {
+  color: #2f4b63 !important;
 }
 
 /* Navbar */
 .navbar,
 .navbar-custom {
-  background: #FCFCFA !important;
-  border-bottom: 1px solid #E8E6DF !important;
+  border-bottom: 1px solid #e7e5dd !important;
 }
 
 .navbar-brand,
 .navbar-nav .nav-link,
 .navbar-custom .nav li a {
-  color: #2A2A26 !important;
+  color: #222222 !important;
 }
 
-/* Links */
-a {
-  color: #355C7D !important;
-}
-
-a:hover,
-a:focus {
-  color: #27445D !important;
-}
-
-/* Body copy and headings */
-p, li, td, blockquote {
-  color: #1F1F1C !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #1F1F1C !important;
-}
-
-/* Metadata / dates / secondary text */
+/* Secondary/meta text */
 .post-meta,
 .blog-tags,
 .text-muted,
@@ -63,19 +64,21 @@ footer,
 footer p,
 footer a,
 .pager,
-.post-preview .post-meta {
-  color: #6E6A61 !important;
+.page-subheading,
+.post-subheading {
+  color: #6b6b66 !important;
 }
 
-/* Footer */
+/* Horizontal rules / separators */
+hr,
 footer {
-  background: #FCFCFA !important;
-  border-top: 1px solid #E8E6DF !important;
+  border-color: #e7e5dd !important;
 }
 
-/* Remove theme noise */
-.navbar-brand {
-  display: none !important;
+/* Footer cleanup */
+footer {
+  background: #fbfbf8 !important;
+  border-top: 1px solid #e7e5dd !important;
 }
 
 footer .theme-by,
