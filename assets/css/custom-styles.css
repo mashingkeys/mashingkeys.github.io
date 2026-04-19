@@ -1,0 +1,84 @@
+html, body {
+  background: #FCFCFA !important;
+  color: #1F1F1C !important;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Main content background */
+.main-content,
+.container-md,
+.container-fluid,
+.blog-post,
+.post-preview,
+.page-content,
+.intro-header,
+header,
+footer {
+  background: #FCFCFA !important;
+  color: #1F1F1C !important;
+}
+
+/* Navbar */
+.navbar,
+.navbar-custom {
+  background: #FCFCFA !important;
+  border-bottom: 1px solid #E8E6DF !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar-custom .nav li a {
+  color: #2A2A26 !important;
+}
+
+/* Links */
+a {
+  color: #355C7D !important;
+}
+
+a:hover,
+a:focus {
+  color: #27445D !important;
+}
+
+/* Body copy and headings */
+p, li, td, blockquote {
+  color: #1F1F1C !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1F1F1C !important;
+}
+
+/* Metadata / dates / secondary text */
+.post-meta,
+.blog-tags,
+.text-muted,
+.small,
+.small-text,
+footer,
+footer p,
+footer a,
+.pager,
+.post-preview .post-meta {
+  color: #6E6A61 !important;
+}
+
+/* Footer */
+footer {
+  background: #FCFCFA !important;
+  border-top: 1px solid #E8E6DF !important;
+}
+
+/* Remove theme noise */
+.navbar-brand {
+  display: none !important;
+}
+
+footer .theme-by,
+footer .beautiful-jekyll-footer {
+  display: none !important;
+}
