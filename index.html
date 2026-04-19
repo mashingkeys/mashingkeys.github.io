@@ -1,5 +1,27 @@
 ---
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+layout: default
+title: Home
 ---
+
+<section class="home-hero">
+  <p class="eyebrow">David</p>
+  <h1>Notes on security, leadership, and systems.</h1>
+  <p class="lede">
+    Writing about security practice, decision-making, governance, and the mechanics behind modern systems.
+  </p>
+</section>
+
+<section class="post-list">
+  {% for post in site.posts limit: 8 %}
+    <article class="post-card">
+      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {% if post.subtitle %}
+        <p class="post-subtitle">{{ post.subtitle }}</p>
+      {% endif %}
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>
